@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #main{
+      width: 100vw;
+      height: 100vh;
+      background-color: turquoise;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  #hero{
+      width: 90%;
+      height: 90%;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border-radius: 10px;
+  }
+  #top{
+      width: 100%;
+      height: 80px;
+      background-color: moccasin;
+      border-start-end-radius: 10px;
+      border-start-start-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+  }
+  .one{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      font-size: 25px;
+      letter-spacing: 1px;
+  }
+  .box{
+      padding: 20px;
+      background-color:rgb(251, 251, 251) ;
+      border-radius: 10px;
+      font-size: 20px;
+      color: rgb(0, 134, 191);
+      border: 1px solid rgba(239, 75, 155, 0.576);
+  }
+  #btm{
+      width: 100%;
+      height: calc(100% - 80px);
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-radius: 10px;
+  }
+  .bubble{
+      width: 60px;
+      height: 60px;
+      background-color: rgb(115, 229, 239);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+  }
+  .bubble:hover{
+      background-color:rgba(104, 158, 153, 0.558) ;
+      transition: all ease 0.1s;
+    }
+ #btm h1 span{
+    color: rgb(233, 54, 120);
+  display: flex;
+  justify-content: center;
+    font-weight: 400;
+    line-height: 50px;
+ }
+ 
